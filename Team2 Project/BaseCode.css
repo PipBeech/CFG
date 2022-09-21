@@ -1,79 +1,207 @@
 @font-face {
-    font-family: "JostNormal";
-    src: url(Jost-Light.ttf);
+  font-family: "JostNormal";
+  src: url(Jost-Light.ttf);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: EDEBE6;
-    font-family: "JostNormal";
-    
-    
+  background-color: EDEBE6;
+  font-family: "JostNormal";
 }
 
 .header {
-    height: 211px;
-    width:100%;
-    left: 0px;
-    right: 0px;
+  height: 211px;
+  width: 100%;
+  left: 0px;
+  right: 0px;
 }
 
 .header img {
-    position: absolute;
-    width: 198px;
-    height: 178px;
-    left: 42%;
-    top: 13px;
+  position: absolute;
+  width: 198px;
+  height: 178px;
+  left: 42%;
+  top: 13px;
 }
 
-
-#SignUp, #login {
-    float: right;
+#SignUp,
+#login {
+  float: right;
 }
 
 .TitleBar {
-    position: relative;
-    width: 100%;
-    height: 39px;
-    top: 170px;
-    background: #333333;
-    color:#EDEBE6;
-    letter-spacing: 0.15em;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    font-size: 18px;
-    font-weight: 400;
+  position: relative;
+  width: 100%;
+  height: 39px;
+  top: 170px;
+  background: #333333;
+  color: #edebe6;
+  letter-spacing: 0.15em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+#careerOpportunities h4 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  align-items: center;
+  text-align: center;
+
+  color: #333333;
+}
+#careerOpportunities p {
+  position: relative;
+  /* width: 832px;
+  height: 120px;
+  left: 208px;
+  top: 2590px; */
+  padding: 50px, 5px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.15em;
+
+  color: #000000;
+}
+.careerCarosel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.careerBox {
+  box-sizing: border-box;
+  width: 337px;
+  height: 381px;
+  left: 71px;
+  top: 2716px;
+  margin: 20px;
+
+  border: 3px solid #e1cdc4;
+  border-radius: 8px;
+}
+.careerTitle {
+  width: 301px;
+  height: 104px;
+  left: 89px;
+  top: 2889px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  /* or 117% */
+  align-items: center;
+  text-align: center;
+
+  color: #333333;
+}
+.applyNowButton {
+  width: 259px;
+  height: 61px;
+  left: 108px;
+  top: 2996px;
+
+  background: #e1cdc4;
+  border-radius: 8px;
+  margin: 30px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.15em;
+
+  color: #473f2b;
+}
+.applyNowButton:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+#socialMediaIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa {
+  color: #edebe6;
+  padding: 5px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
 }
 
+.fa:hover {
+  opacity: 0.7;
+}
+#signUptoEmails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#signUptoEmails button {
+  background-color: #333333;
+  color: #edebe6;
+  border-radius: 8px;
+  border-color: #edebe6;
+  margin: 5px;
+  padding: 10px;
+
+  font-family: "JostNormal";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+#signUptoEmails button:hover {
+  background-color: #edebe6;
+  color: #333333;
+}
 
 footer {
-    height: 170px;
-    margin-top: 15px;
-    
+  height: 170px;
+  margin-top: 15px;
 }
 
-.footer ul li, footer {
-    background-color: #333333;
-    color: #EDEBE6;
-    font-family: "JostNormal";
-    font-size: 18px;
+.footer ul li,
+footer {
+  background-color: #333333;
+  color: #edebe6;
+  font-family: "JostNormal";
+  font-size: 18px;
 }
 
 .Copyright {
-    font-size: 15px;
-    line-height: 50px;
-    text-align: center;
-    font-weight: 300;
-    letter-spacing: 0.15em;
+  font-size: 15px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 0.15em;
 }
 
-.footer{
-    margin-top:5px;
+.footer {
+  margin-top: 5px;
 }
