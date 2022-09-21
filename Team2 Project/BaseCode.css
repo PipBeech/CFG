@@ -77,3 +77,61 @@ footer {
 .footer{
     margin-top:5px;
 }
+
+.testimonials{
+    padding: 20px;
+    border: 20px;
+    margin: 50px;
+}
+
+#testimonialsHeader{
+    color: #EDEBE6;
+    background-color:#333333;
+    font-family:Jost-Bold;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+}
+
+#testimonial1{
+    line-height: 30px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+#testimonial2{
+    line-height: 30px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+#testimonial3{
+    line-height: 30px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.05em; 
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#counter{
+    font-family: Jost-Bold;
+    font-size: 100px;
+}
+
+.stats{
+    padding: 20px;
+    border: 20px;
+    margin: 50px;
+    text-align: center;
+    background-color: #333333;
+    color:#EDEBE6;
+}
