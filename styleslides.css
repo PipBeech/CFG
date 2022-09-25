@@ -1,0 +1,221 @@
+    .slideshow {
+        background-color:rgba(131, 128, 100, 0.7);
+        width: 1080px;
+        height: 694px;
+        left: 73px;
+        top: 385px;
+        position: absolute;
+        margin: auto;
+    }
+    #one{
+        display: none;
+    }
+    #two{
+        display: none;
+    }
+    #three{
+        display: none;
+    }
+    #four{
+        display: none;
+    }
+    #five {
+        display: none;
+    }
+    .prev{
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: #e1cdc4;
+        font-weight: bold;
+        font-size: 30px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        font-family: jost;
+    } 
+    .next{
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: #e1cdc4;
+        font-weight: bold;
+        font-size: 30px;
+        transition: 0.6s ease;
+        border-radius: 3px 0px 0px 3px;
+        user-select: none;
+        font-family: jost;
+        right: 0
+    }
+    .prev:hover, .next:hover{
+        background-color: rgba(71,63,43,0.8);
+    }
+    h3 {
+        color: #473F2B;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 50px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    #img1{
+        height: 550px;
+        object-fit: cover;
+        object-position: -150px;
+        margin-top: -50px;
+        margin-left: 50px;
+    }
+    #img2, #img3 {
+        height: 550px;
+        width: 700px;
+        object-fit: contain;
+        margin-top: -50px;
+        margin-left: 50px;
+    }
+    #vid4{
+        width:840px; 
+        height:472.5px; 
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .text{
+        color:#e1cdc4;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px;
+        padding: 8px, 12px;
+        position: absolute;
+        bottom: 350px;
+        width: 50%;
+        right:50px
+    }
+    .quiz{
+        color:#e1cdc4;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px; 
+        right: -500px;
+        margin-left: 10%;
+        margin-bottom: 80px;
+        margin-top: 40px;
+        margin-right: 50%;
+        border:#473F2B;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: #473F2B;
+    }
+    #button5{
+        background-color: #e1cdc4;
+        border: solid;
+        border-color: #473f2b;
+        color: #473f2b;
+        text-align: center;
+        display: inline-block;
+        font-size: 30px;
+        margin-right: 100%;
+    }
+    #divbutton5 {
+        position: absolute;
+        right:55%;
+        top: 75%;
+    }
+    #text2, #text3{
+        width:30%;
+        right: -10px;
+    }
+    #text4, #text5{
+        width:100%;
+        right: -10px;
+        top: 100px
+    }
+    .quote{
+        color:#e1cdc4;
+        font-family: 'Jost';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px; 
+        padding: 8px, 12px;
+        position: absolute;
+        bottom: 150px;
+        width: 50%;
+        right:50px
+    }
+    #quote3 {
+        width: 30%;
+        right: -10px;
+        bottom: 225px;
+    }
+    .link{
+        color:#e1cdc4;
+        font-family: 'Jost';
+        font-style: italics;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px;
+        padding: 8px, 12px;
+        position: absolute;
+        bottom: 75px;
+        width: 50%;
+        right:50px
+    }
+    #link2 {
+        right: -250px;
+        bottom: 250px;
+    }
+    #link3 {
+        right: -250px;
+        bottom: 175px;
+    }
+    #link5{
+        top: 100px;
+        right: 120px;
+    }
+    .slidenumber{
+        color:#e1cdc4;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    .dot{
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0px 2px;
+        background-color: #e1cdc4;
+        border-radius: 50%;
+        display: inline-block;
+        transition:.6s ease;
+        border-top: -200px
+    }
+    .active, .dot:hover{
+        background-color: rgba(71,63,43,0.8)
+    }
+    .fade{
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade{
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    
