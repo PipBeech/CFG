@@ -5,12 +5,7 @@
 
 nav {
     margin-top: 45px;
-    font-family: "JostBold";
-    
-}
-
-.footer{
-    margin-top:5px;
+    font-family: "JostBold";  
 }
  
  nav ul {
@@ -18,12 +13,12 @@ nav {
     align-items: center;
     justify-content: center;
     list-style: none;
-    gap: 24px;
+    gap: 10px;
     margin: 0
   }
 
   nav ul li {
-    padding: 10px 15px;
+    padding: 10px 25px;
     color: 333333;
     text-transform: uppercase;
     font-weight: 700;
@@ -45,29 +40,42 @@ nav {
   }
   .dropDown {
     position: absolute;
-    display: flex;
+    gap: 15px;
     flex-direction: column;
-    top: calc(100% + 1px);
+    top: calc(100%);
     left: 0%;
     width: 100%;
     opacity: 0;
     visibility: hidden;
+    background-color:rgba(255, 255, 255, 1);
     
   }
+
+  .dropDown:first-child {
+    padding-top: 10px;
+  }
+
   .drop:hover .dropDown {
     opacity: 1;
     visibility: visible;
     transition: all 0.4s ease-in;
   }
+
   .dropDown li {
     white-space: nowrap;
   }
 
   .dropDown .sub-menu:hover {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 1);
     color: #333333;
   }
   .sub-menu {
     width: 100%;
     text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
   }
+

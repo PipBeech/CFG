@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "JostNormal";
+    src: url(Jost-Light.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: EDEBE6;
+    font-family: "JostNormal";
+    
+    
+}
+
+.header {
+    height: 211px;
+    width:100%;
+    left: 0px;
+    right: 0px;
+}
+
+.header img {
+    position: absolute;
+    width: 198px;
+    height: 178px;
+    left: 42%;
+    top: 13px;
+}
+
+
+#SignUp, #login {
+    float: right;
+}
+
+.TitleBar {
+    position: relative;
+    width: 100%;
+    height: 39px;
+    top: 170px;
+    background: #333333;
+    color:#EDEBE6;
+    letter-spacing: 0.15em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+footer {
+    height: 170px;
+    margin-top: 15px;
+    
+}
+
+.footer ul li, footer {
+    background-color: #333333;
+    color: #EDEBE6;
+    font-family: "JostNormal";
+    font-size: 18px;
+}
+
+.Copyright {
+    font-size: 15px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+}
+
+.search {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 1199px;
+    height: 66px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.description {
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.months {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 44px;
+    padding: 10px;
+    font-weight: bold;
+    border-top: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+}
+
+.eventsbox {
+    background-color: #EDEBE6;
+    display: block;
+    padding: 60px;
+    border: solid #E1CDC4 4px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 8px;
+    margin: 50px;
+    line-height: 85%;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 140.62%;
+}
+
+.time {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 165%;   
+    letter-spacing: 0.01em;
+}
+
+.info {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 165%;
+    letter-spacing: 0.01em;
+}
+
+.btn1 {
+    color: #333333;
+    padding: 20px 40px;
+    gap: 10px;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 8px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.btn2 {
+    color: #333333;
+    padding: 20px 40px;
+    gap: 10px;
+    background-color: #E1CDC4;
+    border: solid #E1CDC4 2px;
+    border-radius: 8px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+
+}
+
+/* unvisited link */
+a:link {
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #E1CDC4;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #333333;
+    text-decoration: none;
+  }
+
+  .container
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0px;
+    gap: 15px;
+    height: 63px;
+    width: 1035px;
+
+  }
