@@ -1,9 +1,10 @@
 window.onload = () => {
-  document.querySelectorAll(".careerCarousel").forEach((careerCarousel) => {
+  document.querySelectorAll(".careerCarousel") => {
     const panel = careerCarousel.querySelectorAll(".careerCarouselPanel");
-    // const buttonsHTML = Array.from(panel, () => {
+    const buttonsHTML = Array.from(panel, () => {
     //   return `<span class = "careerCarouselButton"></span>`;
-    // });
+      return .careerCarouselButton;
+    });
 
     careerCarousel.insertAdjacentHTML(
       "beforeend",
