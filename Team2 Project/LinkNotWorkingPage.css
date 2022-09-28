@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "JostNormal";
+    src: url(Jost-Light.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: EDEBE6;
+    font-family: "JostNormal";
+    
+    
+}
+
+.header {
+    height: 211px;
+    width:100%;
+    left: 0px;
+    right: 0px;
+}
+
+.header img {
+    position:absolute;
+    width: 198px;
+    height: 178px;
+    left: 42%;
+    top: 13px;
+}
+
+
+#SignUp, #login {
+    float: right;
+}
+
+
+
+.TitleBar {
+    position: relative;
+    width: 100%;
+    height: 39px;
+    top: 170px;
+    background: #333333;
+    color:#EDEBE6;
+    letter-spacing: 0.15em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+footer {
+    height: 170px;
+    margin-top: 15px;
+    
+}
+
+.footer ul li, footer {
+    background-color: #333333;
+    color: #EDEBE6;
+    font-family: "JostNormal";
+    font-size: 18px;
+}
+
+.Copyright {
+    font-size: 15px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+}
+
+.footer{
+    margin-top:5px;
+}
+
+.NotWorking {
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    align-items: center;
+    text-align: center;
+}
+
+.NotWorking img {
+    width: 200px;
+}
+
+/* unvisited link */
+a:link {
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #E1CDC4;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #333333;
+    text-decoration: none;}
