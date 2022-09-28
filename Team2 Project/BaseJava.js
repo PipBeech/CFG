@@ -1,0 +1,1 @@
+<button onclick="location.href='BaseCode.html'">Home</button>
