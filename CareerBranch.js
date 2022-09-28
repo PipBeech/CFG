@@ -17,6 +17,4 @@ window.onload = () => {
       alert = "Please type correctly.";
     }
   }
-  //   let buyButton = document.querySelector("button");
-  //   buyButton.addEventListener("click", buyCoolMat);
 };
