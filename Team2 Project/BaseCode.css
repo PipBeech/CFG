@@ -48,11 +48,13 @@ body {
   font-size: 18px;
   font-weight: 400;
 }
+
 #careerOpportunities {
   display: block;
   width: 832px;
   margin: auto;
 }
+
 #careerOpportunities h4 {
   font-family: "Jost";
   font-style: normal;
@@ -64,13 +66,9 @@ body {
 
   color: #333333;
 }
+
 #careerOpportunities p {
   position: relative;
-  /* margin: 50px, 20px; */
-  /* width: 832px; */
-  /* height: 120px;
-  left: 208px;
-  top: 2590px; */
   padding: 50px, 200px;
 
   font-family: "Jost";
@@ -84,14 +82,17 @@ body {
 
   color: #000000;
 }
+
 .careerCarousel {
   position: relative;
 }
+
 .careerCarouselPanel {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .careerBox {
   box-sizing: border-box;
   width: 337px;
@@ -103,6 +104,7 @@ body {
   border: 3px solid #e1cdc4;
   border-radius: 8px;
 }
+
 .careerBox h6 {
   font-family: "Jost";
   font-style: normal;
@@ -114,6 +116,7 @@ body {
 
   color: #333333;
 }
+
 .careerBox img {
   display: block;
   align-items: center;
@@ -121,9 +124,8 @@ body {
   padding: 20px;
   width: 50%;
   height: 50%;
-  /* left: 89px;
-  top: 2889px; */
 }
+
 .applyNowButton {
   width: 259px;
   height: 61px;
@@ -145,16 +147,19 @@ body {
 
   color: #473f2b;
 }
+
 .applyNowButton:hover {
   cursor: pointer;
   opacity: 0.7;
   transition: all 0.3s ease-in-out;
 }
+
 #socialMediaIcons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .fa {
   color: #edebe6;
   padding: 5px;
@@ -169,11 +174,13 @@ body {
   opacity: 0.7;
   transition: all 0.3s ease-in-out;
 }
+
 #signUptoEmails {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 #signUptoEmails button {
   background-color: #333333;
   color: #edebe6;
@@ -190,6 +197,7 @@ body {
   text-align: center;
   letter-spacing: 0.15em;
 }
+
 #signUptoEmails button:hover {
   background-color: #edebe6;
   color: #333333;
