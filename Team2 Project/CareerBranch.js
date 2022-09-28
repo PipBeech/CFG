@@ -1,5 +1,5 @@
 window.onload = () => {
-  function abiApplyNow() {
+  document.getElementsByClassName("applyNowButton").onclick = () => {
     let jobPrompt = prompt("Do you want to Apply for this job?");
     let job = jobPrompt.toLowerCase();
     if (job === "yes") {
@@ -14,7 +14,7 @@ window.onload = () => {
     } else if (job === "no") {
       alert = "Okay fine, no job for you!";
     } else {
-      alert = "Please type correctly.";
+      alert = "Please type yes or no.";
     }
-  }
+  };
 };
