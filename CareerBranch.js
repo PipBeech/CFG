@@ -1,38 +1,22 @@
 window.onload = () => {
-  document.querySelectorAll(".careerCarousel") => {
-    const panel = careerCarousel.querySelectorAll(".careerCarouselPanel");
-    const buttonsHTML = Array.from(panel, () => {
-    //   return `<span class = "careerCarouselButton"></span>`;
-      return .careerCarouselButton;
-    });
-
-    careerCarousel.insertAdjacentHTML(
-      "beforeend",
-      `
-        <div class = "careerCarouselNav">
-            ${buttonsHTML.join("")}
-        </div>
-    `
-    );
-
-    const buttons = careerCarousel.querySelectorAll(".careerCarouselButton");
-
-    buttons.forEach((button, i) => {
-      button.addEventListener("click", () => {
-        panel.forEach((item) =>
-          //deselecting all
-          panel.classList.remove("careerCarouselPanelSelected")
-        );
-        buttons.forEach((button) =>
-          button.classList.remove("careerCarouselButtonSelected")
-        );
-        panel[i].classList.add("careerCarouselPanelSelected");
-        button.classList.add("careerCarouselButtonSelected");
-      });
-    });
-
-    //Select the first item of the page load
-    panel[0].classList.add("careerCarouselPanelSelected");
-    buttons[0].classList.add("careerCarouselButtonSelected");
-  });
+  function abiApplyNow() {
+    let jobPrompt = prompt("Do you want to Apply for this job?");
+    let job = jobPrompt.toLowerCase();
+    if (job === "yes") {
+      let name = prompt("What is your name?");
+      let email = prompt("What is your email address?");
+      alert =
+        "Thank you " +
+        name +
+        " we shall send an email to " +
+        email +
+        "shortly.";
+    } else if (job === "no") {
+      alert = "Okay fine, no job for you!";
+    } else {
+      alert = "Please type correctly.";
+    }
+  }
+  //   let buyButton = document.querySelector("button");
+  //   buyButton.addEventListener("click", buyCoolMat);
 };

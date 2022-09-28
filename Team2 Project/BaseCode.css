@@ -88,34 +88,9 @@ body {
   position: relative;
 }
 .careerCarouselPanel {
-  /* display: none; */
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.careerCarouselPanelSelected {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.careerCarouselNav {
-  width: 100%;
-  padding: 20px, 0;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  text-align: center;
-}
-.careerCarouselButton {
-  width: 10px;
-  height: 10px;
-  display: inline-block;
-  background: #333333;
-  border-radius: 50%;
-  margin-right: 5px;
-}
-.careerCarouselButtonSelected {
-  background: #333333;
 }
 .careerBox {
   box-sizing: border-box;
