@@ -2,7 +2,6 @@
 <html>
     <link href="Nav.css" rel="stylesheet">
     <link href="BaseCode.css" rel="stylesheet">
-    <script src="BaseJava.js"></script>
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -21,29 +20,29 @@
         </div>
         <nav>
             <ul>
-                <li id="home"> <a href="BaseCode.html">home</a></li>
-                <li id="AboutUs"><a href="LinkNotWorkingPage.html">ABout Us</a></li>
+                <li>home</li>
+                <li>ABout Us</li>
                 <li class="drop">
                   Careers
                     <ul class="dropDown">
-                        <li class="sub-menu"> <a href="LinkNotWorkingPage.html">Training</a></li>
-                        <li class="sub-menu"> <a href="LinkNotWorkingPage.html">CV Guide</a></li>
+                        <li class="sub-menu">Training</li>
+                        <li class="sub-menu">CV Guide</li>
                     </ul>
                 </li>
                 <li class="drop">Training
                     <ul class="dropDown">
-                        <li class="sub-menu"> <a href="LinkNotWorkingPage.html">css</a></li>
-                        <li class="sub-menu"> <a href="LinkNotWorkingPage.html">javascript</a></li>
-                        <li class="sub-menu"> <a href="LinkNotWorkingPage.html">php</a></li>
-                        <li class="sub-menu"> <a href="LinkNotWorkingPage.html">python</a></li>
+                        <li class="sub-menu">css</li>
+                        <li class="sub-menu">javascript</li>
+                        <li class="sub-menu">php</li>
+                        <li class="sub-menu">python</li>
                     </ul>
                 </li>
                 <li class="drop">Support
                     <ul class="dropDown">
-                        <li class="sub-menu"> <a href="LinkNotWorkingPage.html">Network</a></li>
+                        <li class="sub-menu">Network</li>
                         <li class="sub-menu"> <a href=events.html>Events</a></li>
-                        <li class="sub-menu"> <a href="LinkNotWorkingPage.html">Contact Us</a></li>
-                        <li class="sub-menu"> <a href="LinkNotWorkingPage.html">Blog</a></li>
+                        <li class="sub-menu">Contact Us</li>
+                        <li class="sub-menu">Blog</li>
                     </ul>
                 </li>
             </ul>
@@ -56,11 +55,57 @@
         <div>
             Image slider
         </div>
-        <div>
-            quote and stats bar with possible counter
+        <div class="stats">
+            <!-- quote and stats bar with possible counter -->
+            <p>We have helped...</p>
+            <div id="counter">
+                <script>
+                let counts=setInterval(updated);
+                let upto=0;
+                function updated(){
+                var count= document.getElementById("counter");
+                count.innerHTML=++upto;
+                if(upto===3759)
+                {
+                    clearInterval(counts);
+                }
+                }
+                </script>
+            </div>
+            <p>female and non-binary professionals reach their goals this year so far! Will you be next?</p>
         </div>
-        <div>
-            testimonials
+        
+        <div class="testimonials" id="testimonialsHeader">
+            TESTIMONIALS
+        </div>
+        <div class="flex-container">
+            <div class="testimonials" id="testimonial1">
+            <img src="Anina.jpg" alt="Anina" width="300" heigh="300">
+            <br>
+            "Without VIXEN, I wouldn't be
+            <br>
+            where I am today." - Anina,
+            <br>
+            36, Technical Lead
+             </div>
+             <div class="testimonials", id="testimonial2">
+            <img src="Jade.png" alt="Jade" width="300" height="300">
+            <br>
+            "VIXEN is helping me gain
+            <br>
+            the experience I need!"
+            <br>
+            - Jade, 17, Manufacturing Apprentice
+            </div>
+            <div class="testimonials", id="testimonial3">
+                <img src="Acsa.jpg" alt="Acsa" width="300" height="300">
+                <br>
+                "VIXEN's interview workshops
+                <br>
+                gave me the confidence I need to
+                <br>
+                succeed." - Acsa, 24, Cybersecurity Specialist
+            </div>
         </div>
         <div>
             customers/references
