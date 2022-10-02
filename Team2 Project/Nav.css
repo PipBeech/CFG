@@ -6,6 +6,7 @@
 nav {
     margin-top: 45px;
     font-family: "JostBold";  
+    z-index: 10;
 }
  
  nav ul {
@@ -37,6 +38,7 @@ nav {
 
   .drop {
     position: relative;
+    z-index: 10;
   }
   .dropDown {
     position: absolute;
@@ -48,7 +50,7 @@ nav {
     opacity: 0;
     visibility: hidden;
     background-color:rgba(255, 255, 255, 1);
-    
+    z-index: 10;  
   }
 
   .dropDown:first-child {
@@ -62,7 +64,7 @@ nav {
   }
 
   .dropDown li {
-    white-space: nowrap;
+    white-space: nowrap;  
   }
 
   .dropDown .sub-menu:hover {
@@ -76,6 +78,7 @@ nav {
     padding-bottom: 0px;
     padding-left: 0px;
     padding-right: 0px;
+    z-index: 10;
     
   }
 

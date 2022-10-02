@@ -6,6 +6,7 @@
     position: absolute;
     margin: auto;
     margin-bottom:50px;
+    z-index:0;
 }
 #one{
     display: block;
