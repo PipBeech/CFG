@@ -24,13 +24,17 @@ body {
   position: absolute;
   width: 198px;
   height: 178px;
-  left: 42%;
+  left: calc(50% - 99px);
   top: 13px;
 }
 
 #SignUp,
 #login {
   float: right;
+}
+
+.logo {
+  padding-bottom:20px;
 }
 
 .TitleBar {
