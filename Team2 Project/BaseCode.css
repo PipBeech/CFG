@@ -241,6 +241,10 @@ footer {
   margin: 50px;
 }
 
+.testimonials img{
+  object-fit: contain;
+}
+
 #testimonialsHeader {
   color: #edebe6;
   background-color: #333333;
@@ -250,6 +254,7 @@ footer {
   text-align: center;
   font-weight: 300;
   letter-spacing: 0.15em;
+  margin-bottom: 0px;
 }
 
 #testimonial1 {
