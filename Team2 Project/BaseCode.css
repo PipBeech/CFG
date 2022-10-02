@@ -158,6 +158,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 5px;
+}
+
+#socialMediaIcons a {
+  color: #edebe6;
 }
 
 .fa,

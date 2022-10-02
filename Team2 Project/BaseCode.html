@@ -1,6 +1,7 @@
 <!DOCTYPE html dir="ltr" lang=en-GB">
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,200 +11,182 @@
     <script src="BaseJava.js"></script>
     <script src="CareerBranch.js"></script>
     <!-- Please keep below its for the social media icons in the footer. -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
 
-  <header>
+<header>
     <div class="header">
-      <div class="logo">
-        <img src="Vixen.png" />
-      </div>
-      <div>
-        <div id="login">login</div>
-        <div id="SignUp">signup</div>
-      </div>
-      <div class="TitleBar">
-        <p>
-          INSPIRING & EMPOWERING WOMEN IS KEY TO BUILDING A SUCCESSFUL FUTURE
-        </p>
-      </div>
+        <div class="logo">
+            <img src="Vixen.png" />
+        </div>
+        <div>
+            <div id="login">login</div>
+            <div id="SignUp">signup</div>
+        </div>
+        <div class="TitleBar">
+            <p>
+                INSPIRING & EMPOWERING WOMEN IS KEY TO BUILDING A SUCCESSFUL FUTURE
+            </p>
+        </div>
     </div>
     <nav>
-      <ul>
-        <li id="home"><a href="BaseCode.html">home</a></li>
-        <li id="AboutUs"><a href="LinkNotWorkingPage.html">ABout Us</a></li>
-        <li class="drop">
-          Careers
-          <ul class="dropDown">
-            <li class="sub-menu">
-              <a href="LinkNotWorkingPage.html">Training</a>
+        <ul>
+            <li id="home"><a href="BaseCode.html">home</a></li>
+            <li id="AboutUs"><a href="LinkNotWorkingPage.html">ABout Us</a></li>
+            <li class="drop">
+                Careers
+                <ul class="dropDown">
+                    <li class="sub-menu">
+                        <a href="LinkNotWorkingPage.html">Training</a>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="LinkNotWorkingPage.html">CV Guide</a>
+                    </li>
+                </ul>
             </li>
-            <li class="sub-menu">
-              <a href="LinkNotWorkingPage.html">CV Guide</a>
+            <li class="drop">
+                Training
+                <ul class="dropDown">
+                    <li class="sub-menu"><a href="LinkNotWorkingPage.html">css</a></li>
+                    <li class="sub-menu">
+                        <a href="LinkNotWorkingPage.html">javascript</a>
+                    </li>
+                    <li class="sub-menu"><a href="LinkNotWorkingPage.html">php</a></li>
+                    <li class="sub-menu">
+                        <a href="LinkNotWorkingPage.html">python</a>
+                    </li>
+                </ul>
             </li>
-          </ul>
-        </li>
-        <li class="drop">
-          Training
-          <ul class="dropDown">
-            <li class="sub-menu"><a href="LinkNotWorkingPage.html">css</a></li>
-            <li class="sub-menu">
-              <a href="LinkNotWorkingPage.html">javascript</a>
+            <li class="drop">
+                Support
+                <ul class="dropDown">
+                    <li class="sub-menu">
+                        <a href="LinkNotWorkingPage.html">Network</a>
+                    </li>
+                    <li class="sub-menu"><a href="events.html">Events</a></li>
+                    <li class="sub-menu">
+                        <a href="LinkNotWorkingPage.html">Contact Us</a>
+                    </li>
+                    <li class="sub-menu"><a href="LinkNotWorkingPage.html">Blog</a></li>
+                </ul>
             </li>
-            <li class="sub-menu"><a href="LinkNotWorkingPage.html">php</a></li>
-            <li class="sub-menu">
-              <a href="LinkNotWorkingPage.html">python</a>
-            </li>
-          </ul>
-        </li>
-        <li class="drop">
-          Support
-          <ul class="dropDown">
-            <li class="sub-menu">
-              <a href="LinkNotWorkingPage.html">Network</a>
-            </li>
-            <li class="sub-menu"><a href="events.html">Events</a></li>
-            <li class="sub-menu">
-              <a href="LinkNotWorkingPage.html">Contact Us</a>
-            </li>
-            <li class="sub-menu"><a href="LinkNotWorkingPage.html">Blog</a></li>
-          </ul>
-        </li>
-      </ul>
+        </ul>
     </nav>
     <div>sign up to emails with pop-up</div>
-  </header>
+</header>
 
-  <body>
+<body>
     <div>Image slider</div>
     <div class="stats">
-      <!-- quote and stats bar with possible counter -->
-      <p>We have helped...</p>
-      <div id="counter">
-        <script>
-          let counts = setInterval(updated);
-          let upto = 0;
-          function updated() {
-            var count = document.getElementById("counter");
-            count.innerHTML = ++upto;
-            if (upto === 3759) {
-              clearInterval(counts);
-            }
-          }
-        </script>
-      </div>
-      <p>
-        female and non-binary professionals reach their goals this year so far!
-        Will you be next?
-      </p>
+        <!-- quote and stats bar with possible counter -->
+        <p>We have helped...</p>
+        <div id="counter">
+            <script>
+                let counts = setInterval(updated);
+                let upto = 0;
+                function updated() {
+                    var count = document.getElementById("counter");
+                    count.innerHTML = ++upto;
+                    if (upto === 3759) {
+                        clearInterval(counts);
+                    }
+                }
+            </script>
+        </div>
+        <p>
+            female and non-binary professionals reach their goals this year so far!
+            Will you be next?
+        </p>
     </div>
 
     <div class="testimonials" id="testimonialsHeader">TESTIMONIALS</div>
     <div class="flex-container">
-      <div class="testimonials" id="testimonial1">
-        <img src="Anina.jpg" alt="Anina" width="300" heigh="300" />
-        <br />
-        "Without VIXEN, I wouldn't be
-        <br />
-        where I am today." - Anina,
-        <br />
-        36, Technical Lead
-      </div>
-      <div class="testimonials" , id="testimonial2">
-        <img src="Jade.png" alt="Jade" width="300" height="300" />
-        <br />
-        "VIXEN is helping me gain
-        <br />
-        the experience I need!"
-        <br />
-        - Jade, 17, Manufacturing Apprentice
-      </div>
-      <div class="testimonials" , id="testimonial3">
-        <img src="Acsa.jpg" alt="Acsa" width="300" height="300" />
-        <br />
-        "VIXEN's interview workshops
-        <br />
-        gave me the confidence I need to
-        <br />
-        succeed." - Acsa, 24, Cybersecurity Specialist
-      </div>
+        <div class="testimonials" id="testimonial1">
+            <img src="Anina.jpg" alt="Anina" width="300" heigh="300" />
+            <br />
+            "Without VIXEN, I wouldn't be
+            <br />
+            where I am today." - Anina,
+            <br />
+            36, Technical Lead
+        </div>
+        <div class="testimonials" , id="testimonial2">
+            <img src="Jade.png" alt="Jade" width="300" height="300" />
+            <br />
+            "VIXEN is helping me gain
+            <br />
+            the experience I need!"
+            <br />
+            - Jade, 17, Manufacturing Apprentice
+        </div>
+        <div class="testimonials" , id="testimonial3">
+            <img src="Acsa.jpg" alt="Acsa" width="300" height="300" />
+            <br />
+            "VIXEN's interview workshops
+            <br />
+            gave me the confidence I need to
+            <br />
+            succeed." - Acsa, 24, Cybersecurity Specialist
+        </div>
     </div>
     <div>
-      <div id="careerOpportunities">
-        <h4>Career Opportunities</h4>
-        <br />
-        <p>
-          We are working to secure the best employment, education, and
-          networking opportunities for our community. If you are seeking a
-          career change or would like to apply for a role here, please apply
-          using the links below.
-        </p>
-        <br />
-      </div>
-      <div class="careerCarousel">
-        <div class="careerCarouselPanel">
-          <div class="careerBox">
-            <img src="Career Logos/MonzoLogo.png" />
-            <h6>Data Scientist</h6>
-            <button class="applyNowButton" onclick="careersApplyNow()">
-              Apply Now
-            </button>
-          </div>
-          <div class="careerBox">
-            <img src="Career Logos/MetaLogo.png" />
-            <h6>Software Developer</h6>
-            <button class="applyNowButton" onclick="careersApplyNow()">
-              Apply Now
-            </button>
-          </div>
-          <div class="careerBox">
-            <img src="Career Logos/CFGLogo.png" />
-            <h6>Web Developer</h6>
-            <button class="applyNowButton" onclick="careersApplyNow()">
-              Apply Now
-            </button>
-          </div>
+        <div id="careerOpportunities">
+            <h4>Career Opportunities</h4>
+            <br />
+            <p>
+                We are working to secure the best employment, education, and
+                networking opportunities for our community. If you are seeking a
+                career change or would like to apply for a role here, please apply
+                using the links below.
+            </p>
+            <br />
         </div>
-      </div>
+        <div class="careerCarousel">
+            <div class="careerCarouselPanel">
+                <div class="careerBox">
+                    <img src="Career Logos/MonzoLogo.png" />
+                    <h6>Data Scientist</h6>
+                    <button class="applyNowButton" onclick="careersApplyNow()">
+                        Apply Now
+                    </button>
+                </div>
+                <div class="careerBox">
+                    <img src="Career Logos/MetaLogo.png" />
+                    <h6>Software Developer</h6>
+                    <button class="applyNowButton" onclick="careersApplyNow()">
+                        Apply Now
+                    </button>
+                </div>
+                <div class="careerBox">
+                    <img src="Career Logos/CFGLogo.png" />
+                    <h6>Web Developer</h6>
+                    <button class="applyNowButton" onclick="careersApplyNow()">
+                        Apply Now
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
-  </body>
-  <footer>
+</body>
+<footer>
     <div id="socialMediaIcons">
-      <a
-        href="https://www.facebook.com/codefirstgirls/"
-        class="fa fa-facebook"
-        target="_blank"
-      ></a>
-      <a
-        href="https://www.instagram.com/codefirstgirls/?hl=en"
-        class="fa fa-instagram"
-        target="_blank"
-      ></a>
-      <a
-        href="https://www.linkedin.com/company/code-first-girls"
-        class="fa fa-linkedIn"
-        target="_blank"
-      ></a>
-      <a
-        href="https://www.google.co.uk"
-        class="fa fa-search"
-        target="_blank"
-      ></a>
+        <a href="https://www.facebook.com/codefirstgirls/" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://www.instagram.com/codefirstgirls/?hl=en" class="fa fa-instagram" target="_blank"></a>
+        <a href="https://www.linkedin.com/company/code-first-girls" class="fa fa-linkedIn" target="_blank"></a>
+        <a href="https://www.google.co.uk" class="fa fa-search" target="_blank"></a>
     </div>
     <div id="signUptoEmails"><button>Sign up to emails</button></div>
     <nav class="footer">
-      <ul>
-        <li>Cookies</li>
-        <li>Privacy</li>
-        <li>Terms</li>
-        <li>FAQ</li>
-        <li>Contact</li>
-        <li>Support</li>
-      </ul>
+        <ul>
+            <li>Cookies</li>
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>FAQ</li>
+            <li>Contact</li>
+            <li>Support</li>
+        </ul>
     </nav>
     <div class="Copyright">Copyright 2022 CFG ♡</div>
-  </footer>
+</footer>
+
 </html>
