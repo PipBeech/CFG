@@ -6,19 +6,16 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 body {
     background-color: EDEBE6;
     font-family: "JostNormal";
-    
-    
 }
 
 .header {
     height: 211px;
-    width:100%;
+    width: 100%;
     left: 0px;
     right: 0px;
 }
@@ -27,13 +24,17 @@ body {
     position: absolute;
     width: 198px;
     height: 178px;
-    left: 42%;
+    left: calc(50% - 89px);
     top: 13px;
 }
 
-
-#SignUp, #login {
+#SignUp,
+#login {
     float: right;
+}
+
+.logo {
+    padding-bottom: 20px;
 }
 
 .TitleBar {
@@ -42,7 +43,7 @@ body {
     height: 39px;
     top: 170px;
     background: #333333;
-    color:#EDEBE6;
+    color: #edebe6;
     letter-spacing: 0.15em;
     display: flex;
     align-items: center;
@@ -53,15 +54,71 @@ body {
 }
 
 
-footer {
-    height: 170px;
-    margin-top: 15px;
-    
+#socialMediaIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
 }
 
-.footer ul li, footer {
+#socialMediaIcons a {
+    color: #edebe6;
+}
+
+.fa,
+.fa:visited {
+    color: #edebe6;
+    padding: 5px;
+    font-size: 20px;
+    margin: 5px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
+}
+
+#signUptoEmails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signUptoEmails button {
     background-color: #333333;
-    color: #EDEBE6;
+    color: #edebe6;
+    border-radius: 8px;
+    border-color: #edebe6;
+    margin: 5px;
+    padding: 10px;
+
+    font-family: "JostNormal";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.15em;
+}
+
+#signUptoEmails button:hover {
+    background-color: #edebe6;
+    color: #333333;
+    transition: all 0.3s ease-in-out;
+}
+
+footer {
+    height: 200px;
+    margin-top: 15px;
+}
+
+.footer ul li,
+footer {
+    background-color: #333333;
+    color: #edebe6;
     font-family: "JostNormal";
     font-size: 18px;
 }
@@ -72,6 +129,10 @@ footer {
     text-align: center;
     font-weight: 300;
     letter-spacing: 0.15em;
+}
+
+.footer {
+    margin-top: 5px;
 }
 
 .search {
@@ -116,7 +177,7 @@ h1 {
     background-color: #EDEBE6;
     display: block;
     padding: 60px;
-    border: solid #E1CDC4 4px; 
+    border: solid #E1CDC4 4px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -139,7 +200,7 @@ h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 165%;   
+    line-height: 165%;
     letter-spacing: 0.01em;
 }
 
@@ -161,7 +222,7 @@ h1 {
     width: 100%;
     display: inline-block;
     text-align: center;
-    
+
 }
 
 .btn2 {
@@ -177,32 +238,27 @@ h1 {
 
 }
 
-/* unvisited link */
 a:link {
     color: #333333;
     text-decoration: none;
-  }
-  
-  /* visited link */
-  a:visited {
+}
+
+a:visited {
     color: #333333;
     text-decoration: none;
-  }
-  
-  /* mouse over link */
-  a:hover {
+}
+
+a:hover {
     color: #E1CDC4;
     text-decoration: none;
-  }
-  
-  /* selected link */
-  a:active {
+}
+
+a:active {
     color: #333333;
     text-decoration: none;
-  }
+}
 
-  .container
-  {
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -212,4 +268,96 @@ a:link {
     height: 63px;
     width: 1035px;
 
-  }
+}
+
+.calendar {
+    width: 700px;
+    height: 400px;
+    padding: 30px 30px 100px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #E1CDC4;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: #333333;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+    list-style-type: none;
+    font-weight: bolder;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+    list-style-type: none;
+    font-weight: bolder;
+}
+
+.month .current {
+    padding-top: 10px;
+    text-align: center;
+    list-style-type: none;
+    font-weight: bolder;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #E1CDC4;
+    font-weight: bold;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #333333;
+}
+
+.days {
+    padding: 10px 0;
+    background: #E1CDC4;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #E1CDC4;
+}
+
+.days li .active {
+    padding: 0px;
+    background: #E1CDC4;
+    color: white !important;
+}
+
+.days li .past {
+    padding: 0px;
+    background: #E1CDC4;
+    color: grey !important;
+}
