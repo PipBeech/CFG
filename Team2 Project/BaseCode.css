@@ -192,27 +192,44 @@ body {
 }
 
 #signUptoEmails button {
-  background-color: #333333;
-  color: #edebe6;
   border-radius: 8px;
-  border-color: #edebe6;
   margin: 5px;
-  padding: 10px;
-
+  padding: 5px;
+  width: 300px;
+  cursor: pointer;
   font-family: "JostNormal";
+  text-transform: uppercase;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 1000;
   font-size: 15px;
   line-height: 20px;
   text-align: center;
   letter-spacing: 0.15em;
 }
 
-#signUptoEmails button:hover {
+.buttonDark {
+  background-color: #333333;  
+  border-color: #edebe6;
+  color: #edebe6;
+}
+.buttonDark:hover {
   background-color: #edebe6;
   color: #333333;
   transition: all 0.3s ease-in-out;
 }
+
+.buttonLight {
+  background-color:#edebe6;   
+  border-color: #333333;
+  color: #333333;
+}
+.buttonLight:hover {  
+  background-color: #333333;
+  color: #edebe6;
+  transition: all 0.3s ease-in-out;
+}
+
+
 
 footer {
   height: 200px;
@@ -243,6 +260,7 @@ footer {
   padding: 20px;
   border: 20px;
   margin: 50px;
+  
 }
 
 .testimonials img{
@@ -250,17 +268,18 @@ footer {
 }
 
 #testimonialsHeader {
-  color: #edebe6;
-  background-color: #333333;
-  font-family: Jost-Bold;
-  font-size: 30px;
+  font-family: Jost;
+  font-size: 50;
   line-height: 50px;
   text-align: center;
   font-weight: 300;
-  letter-spacing: 0.15em;
   margin-bottom: 0px;
   padding-top:15px;
   padding-bottom:15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  color: #333333;
 }
 
 #testimonial1 {
@@ -270,11 +289,25 @@ footer {
   letter-spacing: 0.05em;
 }
 
+#testimonial1 img {
+  background: #FAE0D9;
+  border-radius: 15px;
+  box-shadow: 0px 3px #c0c0c0;
+
+}
+
 #testimonial2 {
   line-height: 30px;
   text-align: center;
   font-weight: 300;
   letter-spacing: 0.05em;
+}
+
+#testimonial2 img {
+  background: #EBDDD2;
+  border-radius: 15px;
+  box-shadow: 0px 3px #c0c0c0;
+
 }
 
 #testimonial3 {
@@ -284,24 +317,46 @@ footer {
   letter-spacing: 0.05em;
 }
 
+#testimonial3 img {
+  background: #FAECE5;
+  border-radius: 15px;
+  box-shadow: 0px 3px #c0c0c0;
+}
+
 .flex-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
+.strapline {
+  color: #473F2B;
+  font-size: 70;
+  font-family: Jost;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
+}
+
 #counter {
-  font-family: Jost-Bold;
-  font-size: 100px;
+  font-family: Jost;
+  font-size: 70;
 }
 
 .stats {
   padding: 20px;
   border: 20px;
   margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
   text-align: center;
-  background-color: #333333;
-  color: #edebe6;
+  background-color: rgb(131, 128, 100, 0.7);
+  text-transform: uppercase;
+  color: #473F2B;
+  font-size: 18;
+  font-weight: bold;
 }
 
 /* unvisited link */
