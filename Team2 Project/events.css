@@ -273,7 +273,7 @@ a:active {
 .calendar {
     width: 700px;
     height: 400px;
-    padding: 30px 30px 100px 100px;
+    padding: 25px 30px 100px calc(50% - 350px);
     display: flex;
     flex-direction: column;
     justify-content: center;
