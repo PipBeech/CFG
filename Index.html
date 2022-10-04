@@ -1,0 +1,289 @@
+<!DOCTYPE public html dir="ltr" lang=en-GB">
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="Content/CSS/Nav.css" rel="stylesheet" />
+    <link href="Content/CSS/BaseCode.css" rel="stylesheet" />
+    <link href="Content/CSS/Slideshow.css" rel="stylesheet" />
+    <script src="Content/Scripts/BaseJava.js"></script>
+    <script src="Content/Scripts/CareerBranch.js"></script>
+    <script src="Content/Scripts/Slideshow.js"></script>
+    <!-- Please keep below its for the social media icons in the footer. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="Content/Images/Vixen.png" />
+            </div>
+            <div style="display:none;">
+                <div id="login">login</div>
+                <div id="SignUp">signup</div>
+            </div>
+            <div class="TitleBar">
+                <p>
+                    INSPIRING & EMPOWERING WOMEN IS KEY TO BUILDING A SUCCESSFUL FUTURE
+                </p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li id="home"><a href="BaseCode.html">home</a></li>
+                <li id="AboutUs"><a href="LinkNotWorkingPage.html">ABout Us</a></li>
+                <li id="navCareers" class="drop">
+                    Careers
+                    <ul class="dropDown">
+                        <li class="sub-menu"><a href="LinkNotWorkingPage.html">Training</a></li>
+                        <li class="sub-menu"><a href="LinkNotWorkingPage.html">CV Guide</a></li>
+                    </ul>
+                </li>
+                <li id="navTraining" class="drop">
+                    Training
+                    <ul class="dropDown">
+                        <li class="sub-menu"><a href="LinkNotWorkingPage.html">css</a></li>
+                        <li class="sub-menu"><a href="LinkNotWorkingPage.html">javascript</a></li>
+                        <li class="sub-menu"><a href="LinkNotWorkingPage.html">php</a></li>
+                        <li class="sub-menu"><a href="LinkNotWorkingPage.html">python</a></li>
+                    </ul>
+                </li>
+                <li class="drop">
+                    Support
+                    <ul class="dropDown">
+                        <li class="sub-menu"><a href="LinkNotWorkingPage.html">Network</a></li>
+                        <li class="sub-menu"><a href="events.html">Events</a></li>
+                        <li class="sub-menu"><a href="LinkNotWorkingPage.html">Contact Us</a></li>
+                        <li class="sub-menu"><a href="LinkNotWorkingPage.html">Blog</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div id="signUptoEmails" class="buttonDiv">
+            <button id="signup" class="button buttonLight" onclick="signMeUp()">Sign up to emails</button>
+        </div>
+    </header>
+
+    <div class="slideshow" style="position:relative;">
+
+        <div class="slides" id="one">
+            <div class="title">
+                <h3>Vixen of the Week</h3>
+            </div>
+            <img id="img1"
+                 src="https://images.squarespace-cdn.com/content/v1/6065d2ff8a8b10225a88d6a3/1618321699502-GXWZAZDELEUCI1UJZDWC/2.+Alice+Bentinck.jpeg"
+                 alt="A photo of Alice Bentinck, a dark haired woman with amber eyes in a gray long sleeve shirt"
+                 width="560">
+            <div class="text">
+                This week's Vixen is Alice Bentinck. As the founder of Code First Girls, she works
+                incredibly hard to get more women involved in the field. She is also a STEM investor and founded another
+                company to help others called Entrepreneur First.
+            </div>
+            <a class="link" href="https://en.wikipedia.org/wiki/Alice_Bentinck">Read more here.</a>
+            <div class="quote">
+                "Our DNA is all about doing – providing young women with the practical skills,
+                confidence, and community to break into the tech world and progress through it."
+            </div>
+        </div>
+
+        <div class="slides" id="two">
+            <div class="title">
+                <h3>Stats on STEM</h3>
+            </div>
+            <div class="text" id="text2">
+                Women have been underrepresented in STEM for far too long. Our program aims to
+                change that!
+            </div>
+            <a class="link" id="link2"
+               href="https://www.stemwomen.com/women-in-stem-percentages-of-women-in-stem-statistics">
+                Read more
+                here
+            </a>
+            <img id="img2" src="Content/Images/Slideshow/slide2.png" width="560">
+        </div>
+
+        <div class="slides" id="three">
+            <div class="title">
+                <h3>Blog of the Week</h3>
+            </div>
+            <img id="img3" src="Content/Images/Slideshow/slide3.jfif" width="560">
+            <div class="text" id="text3">
+                This week's blog of the week is on investing in female technology companies.
+            </div>
+            <div class="quote" id="quote3">"We Don't Need More Awareness, We Need More Action"</div>
+            <a class="link" id="link3"
+               href="https://www.startupgrind.com/blog/why-women-investing-in-and-championing-women-in-tech-makes-sense/">
+                Read
+                More Here
+            </a>
+        </div>
+
+        <div class="slides" id="four">
+            <div class="title">
+                <h3>Video of the Week</h3>
+            </div>
+            <div class="text" id="text4">Check out the video of the week below:</div>
+            <object data='https://www.youtube.com/embed/zRHNAhXeUYE' width='560px' height='315px'>
+            </object>
+
+        </div>
+
+        <div class="slides" id="five">
+            <div class="title">
+                <h3>Career Quiz</h3>
+            </div>
+            <img id="img3" src="Content/Images/Slideshow/slide5.jfif" width="560">
+            <div class="text" id="text5" t>Not sure what your interested in?</div>
+            <a class="link" id="link5" href="LINK">Take our career quiz here!</a>
+            <div class="quiz">
+                <p1 id="question">Would you rather...</p1>
+                <ul class="answers">
+                    <li> Work on a team<br></li>
+                    <li> Work with a partner<br></li>
+                    <li> Work by yourself<br></li>
+                    <li> Lead a group<br></li>
+                </ul>
+                <div id="divbutton5">
+                    <button id="button5">Next</button>
+                </div>
+            </div>
+        </div>
+
+        <!--Buttons-->
+        <a class="prev" onclick="plusSlides(-1)">
+            < <a class="next" onclick="plusSlides(1)">
+                >
+            </a>
+
+            <!--dots-->
+            <div class="dots-container" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+    </div>
+
+    <div>
+        <p class="strapline">
+            We help ambitious women like you make more money + build lives they love.
+        </p>
+    </div>
+
+    <div class="stats">
+        <!-- quote and stats bar with possible counter -->
+        <p>We have helped...</p>
+        <div id="counter">
+            <script>
+                let counts = setInterval(updated);
+                let upto = 0;
+                function updated() {
+                    var count = document.getElementById("counter");
+                    count.innerHTML = ++upto;
+                    if (upto === 3759) {
+                        clearInterval(counts);
+                    }
+                }
+            </script>
+        </div>
+        <p>
+            female and non-binary professionals reach their goals this year so far!
+            Will you be next?
+        </p>
+    </div>
+
+    <div class="testimonialsHeader" id="testimonialsHeader">Testimonials</div>
+    <div class="flex-container">
+        <div class="testimonials" id="testimonial1">
+            <img src="Content/Images/Anina.png" alt="Anina" width="300" height="300" />
+            <br />
+            "Without VIXEN, I wouldn't be
+            <br />
+            where I am today." - Anina,
+            <br />
+            36, Technical Lead
+        </div>
+        <div class="testimonials" , id="testimonial2">
+            <img src="Content/Images/Jade.png" alt="Jade" width="300" height="300" />
+            <br />
+            "VIXEN is helping me gain
+            <br />
+            the experience I need!"
+            <br />
+            - Jade, 17, Manufacturing Apprentice
+        </div>
+        <div class="testimonials" , id="testimonial3">
+            <img src="Content/Images/Acsa.png" alt="Acsa" width="300" height="300" />
+            <br />
+            "VIXEN's interview workshops
+            <br />
+            gave me the confidence I need to
+            <br />
+            succeed." - Acsa, 24, Cybersecurity Specialist
+        </div>
+    </div>
+    <div>
+        <div id="careerOpportunities">
+            <h4>Career Opportunities</h4>
+            <br />
+            <p>
+                We are working to secure the best employment, education, and
+                networking opportunities for our community. If you are seeking a
+                career change or would like to apply for a role here, please apply
+                using the links below.
+            </p>
+            <br />
+        </div>
+        <div class="careerCarousel">
+            <div class="careerCarouselPanel">
+                <div class="careerBox">
+                    <img src="Content/Images/Career Logos/MonzoLogo.png" />
+                    <h6>Data Scientist</h6>
+                    <button class="applyNowButton" onclick="careersApplyNow()">Apply Now</button>
+                </div>
+                <div class="careerBox">
+                    <img src="Content/Images/Career Logos/MetaLogo.png" />
+                    <h6>Software Developer</h6>
+                    <button class="applyNowButton" onclick="careersApplyNow()">Apply Now</button>
+                </div>
+                <div class="careerBox">
+                    <img src="Content/Images/Career Logos/CFGLogo.png" />
+                    <h6>Web Developer</h6>
+                    <button class="applyNowButton" onclick="careersApplyNow()">Apply Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="socialMediaIcons">
+            <a href="https://www.facebook.com/codefirstgirls/" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://www.instagram.com/codefirstgirls/?hl=en" class="fa fa-instagram" target="_blank"></a>
+            <a href="https://www.linkedin.com/company/code-first-girls" class="fa fa-linkedIn" target="_blank"></a>
+            <a href="https://www.google.co.uk" class="fa fa-search" target="_blank"></a>
+        </div>
+        <div id="signUptoEmails" class="buttonDiv">
+            <button id="signup" class="button buttonDark" onclick="signMeUp()">Sign up to emails</button>
+        </div>
+
+        <nav class="footer">
+            <ul>
+                <li>Cookies</li>
+                <li>Privacy</li>
+                <li id="navTerms">Terms</li>
+                <li id="navFAQ">FAQ</li>
+                <li id="navContact">Contact</li>
+                <li>Support</li>
+            </ul>
+        </nav>
+        <div class="Copyright">Copyright 2022 CFG ♡</div>
+    </footer>
+</body>
+
+
+</html>
