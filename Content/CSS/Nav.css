@@ -1,6 +1,6 @@
 @font-face {
     font-family: "JostBold";
-    src: url(Jost-Bold.ttf);
+    src: url(../Fonts/Jost-Bold.ttf);
 }
 
 nav {
@@ -20,7 +20,7 @@ nav {
 
   nav ul li {
     padding: 10px 25px;
-    color: 333333;
+    color: #333333;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.15em;
@@ -82,3 +82,18 @@ nav {
     
   }
 
+@media screen and (max-width:800px) {
+
+    nav {
+        margin-top: 0px
+    }
+
+    nav ul li {
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+    #home, #navCareers, #navTraining, #navTerms, #navContact #navFAQ {
+        display:none;
+    }
+}

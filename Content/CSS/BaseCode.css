@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "JostNormal";
-  src: url(Jost-Light.ttf);
+    font-family: "JostNormal";
+    src: url(../Fonts/Jost-Light.ttf);
 }
 
 * {
@@ -381,4 +381,61 @@ a:hover {
 a:active {
   color: #333333;
   text-decoration: none;
+}
+
+@media screen and (max-width:1000px) {
+    .TitleBar {
+        height: 95px;
+        top: 120px;
+    }
+
+    .slideshow {
+        display: none;
+    }
+
+    .header {
+        height: 245px;
+    }
+
+    .header img {
+        width: 138.6px;
+        height: 124.6px;
+        left: calc(50% - 69.3px);
+    }
+
+        .header logo {
+            padding-bottom: 0px;
+        }
+
+    .strapline {
+        margin-top:20px;
+        font-size: 40px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .testimonials {
+        padding: 0px;
+        border:0px;
+        margin:5px;
+    }
+
+    #careerOpportunities {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #careerOpportunities p {
+        margin:20px;
+    }
+
+    .careerCarouselPanel {
+        flex-direction: column;
+    }
+
+    .NotWorking {
+        padding-top: 20px;
+    }
 }

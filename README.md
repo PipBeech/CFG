@@ -3,6 +3,14 @@
 This is the code for our team project created as a part of the Code First Girls Web Development course.
 We  collectively choose to produce a website supporting women getting into tech with events, social media, jobs and much more.
 
+We built a mobile first web-site that changes its layout based on the browser dimensions.
+
+### Mobile site
+![image](https://i.imgur.com/rJSWRW9.png)
+
+### Desktop site
+![image](https://i.imgur.com/Ligp9Px.png)
+
 ## What was our process?
 
 We used Figma to produce a wireframe mock up of the design of the website. 
