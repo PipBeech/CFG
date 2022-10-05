@@ -242,7 +242,7 @@ h1 {
 }
 
 .buttonDark {
-  background-color: #333333;
+  background-color: #333333;  
   border-color: #edebe6;
   color: #edebe6;
 }
@@ -253,11 +253,11 @@ h1 {
 }
 
 .buttonLight {
-  background-color:#edebe6;
+  background-color:#edebe6;  
   border-color: #333333;
   color: #333333;
 }
-.buttonLight:hover {
+.buttonLight:hover {  
   background-color: #333333;
   color: #edebe6;
   transition: all 0.3s ease-in-out;
