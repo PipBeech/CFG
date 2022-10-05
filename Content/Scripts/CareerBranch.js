@@ -14,3 +14,4 @@ let careersApplyNow = () => {
   }
   return alert(message);
 };
+ 

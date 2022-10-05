@@ -7,4 +7,4 @@ function signMeUp() {
         else {
             text = "We have sent a verification email to " + email;
         }
-}
+} 

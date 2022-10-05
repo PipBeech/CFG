@@ -38,5 +38,5 @@ This was an 8 week course that taught all of the fundamentals of web design and 
 
 
 ## Learn more about Code first girls!
-
+ 
 https://codefirstgirls.com
