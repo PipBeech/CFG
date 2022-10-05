@@ -282,7 +282,7 @@ h1 {
   height: 0;
 }
 
-.container {
+.container-job {
   display: flex;
   text-align: top;
   background-color: #EDEBE6;
