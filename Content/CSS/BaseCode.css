@@ -21,7 +21,7 @@ h1 {
 .description {
   font-size: 20px;
   text-align: center;
-  padding: 50px;
+  padding: 25px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -265,19 +265,52 @@ h1 {
   transition: all 0.3s ease-in-out;
 }
 
+.jobsBoardTitle {
+  padding-top:25px;
+}
+
+.jobsRow {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  padding:auto;
+  width:100%;
+  justify-content: center;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
 .container {
   display: flex;
-  align-items: flex-start;
-  text-align: left;
+  text-align: top;
   background-color: #EDEBE6;
   padding: auto;
   border: solid #E1CDC4 3px;
   flex-direction: column;
   padding: 18px;
-  gap: 30px;
+  gap: 0px;
   border-radius: 8px;
   line-height: 25px;
-  margin: 50px
+  margin: 50px;
+  width:350px;
+  height:525px;
+}
+
+.careerCarouselPanel img {
+  width:350px;
+}
+
+.careerCarouselPanel p {
+  padding-bottom:25px;
+  padding-top:15px;
+}
+
+.careerCarouselPanel h2 {
+  padding-top:10px;
 }
 
 .table {
@@ -524,5 +557,27 @@ a:active {
 
   .NotWorking {
     padding-top: 20px;
+  }
+
+  /* Jobs Board */
+  .description {
+    font-size: 20px;
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #allJobs {
+    display:none;
+  }
+
+  .container {
+    width:320px;
+  }
+
+  .container img {
+    width:300px;
   }
 }
