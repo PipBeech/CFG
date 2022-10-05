@@ -82,7 +82,14 @@ nav {
     
   }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
+
+    html, body {
+      overflow-x: hidden;
+    }
+    body {
+      position: relative
+    }
 
     nav {
         margin-top: 0px
@@ -94,6 +101,6 @@ nav {
     }
 
     #home, #navCareers, #navTraining, #navTerms, #navContact #navFAQ {
-        display:none;
+        display:none !important;
     }
 }
