@@ -298,6 +298,10 @@ h1 {
   height:525px;
 }
 
+.careerBox img {
+  width:auto !important;
+}
+
 .careerCarouselPanel img {
   width:350px;
 }
