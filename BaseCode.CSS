@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "JostNormal";
+    src: url(Jost-Light.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.description {
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.jobs {
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 44px;
+    padding: 10px;
+    font-weight: bold;
+    border-top: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+}
+
+
+body {
+    background-color: EDEBE6;
+    font-family: "JostNormal";
+    text-align: left;
+}
+
+.header {
+    height: 211px;
+    width:100%;
+    left: 0px;
+    right: 0px;
+}
+
+.header img {
+    position: absolute;
+    width: 198px;
+    height: 178px;
+    left: 42%;
+    top: 13px;
+}
+
+
+#SignUp, #login {
+    float: right;
+}
+
+.TitleBar {
+    position: relative;
+    width: 100%;
+    height: 39px;
+    top: 170px;
+    background: #333333;
+    color:#EDEBE6;
+    letter-spacing: 0.15em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.column {
+    width: 33.33%;
+    align-self: center;
+    text-align: left;
+  }
+  
+
+
+
+.container {
+    display:flex;
+    align-items:flex-start;
+    text-align: left;
+    background-color: #EDEBE6;
+    padding: auto;
+    border: solid #E1CDC4 3px; 
+    flex-direction: column;
+    padding: 18px;
+    gap: 30px;
+    border-radius: 8px;
+    line-height: 25px;
+    margin:50px
+
+}  
+
+.table {
+    text-align: left;
+    align-content: left;
+    
+}
+
+
+.caption {
+    padding-top: 10px;
+   }
+
+
+   .btn1 {
+    color: #333333;
+    padding: 10px 30px;
+    gap: 10px;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 8px;
+    width: 65%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;    
+}
+
+.btn2 {
+    color: #333333;
+    padding: 10px 30px;
+    gap: 10px;
+    background-color: #E1CDC4;
+    border: solid #E1CDC4 2px;
+    border-radius: 8px;
+    width: 65%;
+    display: inline-block;
+    text-align: center;
+}
+
+
+footer {
+    height: 120px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 170px;
+    margin-top: 15px;
+}
+
+.footer ul li, footer {
+    background-color: #333333;
+    color: #EDEBE6;
+    font-family: "JostNormal";
+    font-size: 18px;
+}
+
+.Copyright {
+    font-size: 15px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+}
