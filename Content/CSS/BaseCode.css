@@ -13,6 +13,34 @@ body {
   font-family: "JostNormal";
 }
 
+
+h1 {
+  text-align: center;
+}
+
+.description {
+  font-size: 20px;
+  text-align: center;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.jobs {
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 44px;
+  padding: 10px;
+  font-weight: bold;
+  border-top: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+}
+
+
 .header {
   height: 211px;
   width: 100%;
@@ -51,6 +79,12 @@ body {
   justify-content: center;
   font-size: 18px;
   font-weight: 400;
+}
+
+.column {
+  width: 33.33%;
+  align-self: center;
+  text-align: left;
 }
 
 #careerOpportunities {
@@ -229,6 +263,94 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
+.jobsBoardTitle {
+  padding-top:25px;
+}
+
+.jobsRow {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  padding:auto;
+  width:100%;
+  justify-content: center;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.container {
+  display: flex;
+  text-align: top;
+  background-color: #EDEBE6;
+  padding: auto;
+  border: solid #E1CDC4 3px;
+  flex-direction: column;
+  padding: 18px;
+  gap: 0px;
+  border-radius: 8px;
+  line-height: 25px;
+  margin: 50px;
+  width:350px;
+  height:525px;
+}
+
+.careerBox img {
+  width:auto !important;
+}
+
+.careerCarouselPanel img {
+  width:350px;
+}
+
+.careerCarouselPanel p {
+  padding-bottom:25px;
+  padding-top:15px;
+}
+
+.careerCarouselPanel h2 {
+  padding-top:10px;
+}
+
+.table {
+  text-align: left;
+  align-content: left;
+
+}
+
+
+.caption {
+  padding-top: 10px;
+}
+
+
+.btn1 {
+  color: #333333;
+  padding: 10px 30px;
+  gap: 10px;
+  background-color: white;
+  border: solid black 2px;
+  border-radius: 8px;
+  width: 65%;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.btn2 {
+  color: #333333;
+  padding: 10px 30px;
+  gap: 10px;
+  background-color: #E1CDC4;
+  border: solid #E1CDC4 2px;
+  border-radius: 8px;
+  width: 65%;
+  display: inline-block;
+  text-align: center;
+}
 
 
 footer {
@@ -384,58 +506,80 @@ a:active {
 }
 
 @media screen and (max-width:1000px) {
-    .TitleBar {
-        height: 95px;
-        top: 120px;
-    }
+  .TitleBar {
+    height: 95px;
+    top: 120px;
+  }
 
-    .slideshow {
-        display: none;
-    }
+  .slideshow {
+    display: none;
+  }
 
-    .header {
-        height: 245px;
-    }
+  .header {
+    height: 245px;
+  }
 
-    .header img {
-        width: 138.6px;
-        height: 124.6px;
-        left: calc(50% - 69.3px);
-    }
+  .header img {
+    width: 138.6px;
+    height: 124.6px;
+    left: calc(50% - 69.3px);
+  }
 
-        .header logo {
-            padding-bottom: 0px;
-        }
+  .header logo {
+    padding-bottom: 0px;
+  }
 
-    .strapline {
-        margin-top:20px;
-        font-size: 40px;
-    }
+  .strapline {
+    margin-top:20px;
+    font-size: 40px;
+  }
 
-    .flex-container {
-        flex-direction: column;
-    }
+  .flex-container {
+    flex-direction: column;
+  }
 
-    .testimonials {
-        padding: 0px;
-        border:0px;
-        margin:5px;
-    }
+  .testimonials {
+    padding: 0px;
+    border:0px;
+    margin:5px;
+  }
 
-    #careerOpportunities {
-        width: 100%;
-        margin-top: 20px;
-    }
+  #careerOpportunities {
+    width: 100%;
+    margin-top: 20px;
+  }
 
-    #careerOpportunities p {
-        margin:20px;
-    }
+  #careerOpportunities p {
+    margin:20px;
+  }
 
-    .careerCarouselPanel {
-        flex-direction: column;
-    }
+  .careerCarouselPanel {
+    flex-direction: column;
+  }
 
-    .NotWorking {
-        padding-top: 20px;
-    }
+  .NotWorking {
+    padding-top: 20px;
+  }
+
+  /* Jobs Board */
+  .description {
+    font-size: 20px;
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #allJobs {
+    display:none;
+  }
+
+  .container {
+    width:320px;
+  }
+
+  .container img {
+    width:300px;
+  }
 }
